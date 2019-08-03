@@ -39,11 +39,11 @@ WS.sendRequestAndVerify(findTestObject('Ottawa Roster request - Bobby Ryan'), Fa
 
 WS.sendRequestAndVerify(findTestObject('prospects'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.sendRequestAndVerify(findTestObject('Schedule'))
+WS.sendRequestAndVerify(findTestObject('Schedule'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.sendRequestAndVerify(findTestObject('Schedule Ottawa Nov 23 2018'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.sendRequestAndVerify(findTestObject('StatType'))
+WS.sendRequestAndVerify(findTestObject('StatType'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.sendRequestAndVerify(findTestObject('Standings'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -58,4 +58,5 @@ WS.sendRequestAndVerify(findTestObject('Team Stats'), FailureHandling.CONTINUE_O
 WS.sendRequestAndVerify(findTestObject('Teams Request'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.sendRequestAndVerify(findTestObject('Teams Rosters'), FailureHandling.CONTINUE_ON_FAILURE)
+
 
